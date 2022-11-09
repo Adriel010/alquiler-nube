@@ -22,8 +22,8 @@ from pydownloader.downloader import Downloader
 import shorturl
 import xdlink
 
-tl_admin_users = ['rafelito05'] #Poner aqui los user con acceso permanente
-godlist = ['rafelito05'] #Poner aqui los admin 
+tl_admin_users = ['Ken_Kaneki_ofc'] #Poner aqui los user con acceso permanente
+godlist = ['Ken_Kaneki_ofc'] #Poner aqui los admin 
 
 async def get_root(username):
     if os.path.isdir(config.ROOT_PATH+username)==False:
@@ -356,7 +356,7 @@ async def onmessage(bot:TelegramClient,ev: NewMessage.Event,loop,ret=False):
 
 def init():
     try:
-        bot = TelegramClient(
+        bot = TelegramClient(5744958556:AAFvXaZKZ1r89J37TpdOQIgof_FIGUZA_vA)
             'bot', api_id=config.API_ID, api_hash=config.API_HASH).start(bot_token=config.BOT_TOKEN)
 
         print('Bot is Started!')
