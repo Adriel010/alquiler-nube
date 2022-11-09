@@ -1,0 +1,26 @@
+{
+  "name": "👑 Upload Premium ☁️",
+  "description": "Bot De Telegram : Descargador gratis de contenido desde internet.",
+  "repository": "https://github.com/ObisoftDev/ownclouduci",
+  "env": {
+    "bot_token": {
+      "description": "TOKEN DEL BOT"
+    },
+    "proxy_enc": {
+      "description": "Proxy Encriptado",
+      "value": "PROXY"
+    },
+    "api_id": {
+      "description": "Api Id de telegram",
+      "value": "18641760"
+    },
+    "api_hash": {
+      "description": "Api Hash de telegram",
+      "value": "b7b026ce9d1d36400c02dc21d8df53a3"
+    },
+    "tl_admin_user": {
+      "description": "Usuarios Permitidos",
+      "value": "rafelito05"
+    }
+  }
+}
