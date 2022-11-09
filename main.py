@@ -212,7 +212,7 @@ async def onmessage(bot:TelegramClient,ev: NewMessage.Event,loop,ret=False):
 
     if '/start' in text:
         reply = '👋 👑 Upload Premium ☁️ \nEs un bot para el manejo de archivos en telegam (descargas/subidas)\n\n'
-        reply += '<a href="https://t.me/rafelito05">Admin ↗️</a>'
+        reply += '<a href="https://t.me/Ken_Kaneki_ofc">Admin ↗️</a>'
         message = await bot.send_message(ev.chat.id,reply,parse_mode='html')
         pass
     if '/add' in text and username in godlist:
@@ -342,7 +342,7 @@ async def onmessage(bot:TelegramClient,ev: NewMessage.Event,loop,ret=False):
             await bot.send_file(ev.chat,txtsendname,
                                 caption=f'{txtsendname}',
                                 thumb='thumb.jpg',
-                                buttons=[Button.url('📯Admin','https://t.me/rafelito05')])
+                                buttons=[Button.url('📯Admin','https://t.me/Ken_Kaneki_ofc')])
             for fitem in listdir:
                 try:
                     os.unlink(fitem)
