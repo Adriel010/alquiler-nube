@@ -356,8 +356,8 @@ async def onmessage(bot:TelegramClient,ev: NewMessage.Event,loop,ret=False):
 
 def init():
     try:
-        bot = TelegramClient(
-            'bot', api_id=config.API_ID, api_hash=config.API_HASH).start(bot_token=config.5744958556:AAFvXaZKZ1r89J37TpdOQIgof_FIGUZA_vA)
+        bot = 5744958556:AAFvXaZKZ1r89J37TpdOQIgof_FIGUZA_vA
+            'bot', api_id=config.API_ID, api_hash=config.API_HASH).start(bot_token=config.BOT_TOKEN)
 
         print('Bot is Started!')
 
